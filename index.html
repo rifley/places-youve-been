@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Places Where You've Been</title>
+  </head>
+  <body>
+    <h1>Where Have You Lived or Visited?</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form id="form">
+            <div class="">
+              <label for="nameOfPlace">Where have you been</label>
+              <input id="nameOfPlace"></input>
+            </div>
+            <div class="">
+              <label for="why">Why were you there?</label>
+              <input id="why"></input>
+            </div>
+            <div class="">
+              <label for="landmarks">What did you see?</label>
+              <input id="landmarks"></input>
+            </div>
+            <div class="">
+              <label for="timeOfYear">When did you go?</label>
+              <input id="timeOfYear"></input>
+            </div>
+            <div class="">
+              <label for="notes">Any other notes?</label>
+              <input id="notes"></input>
+            </div>
+            <div class="">
+              <label for="how">How did you get there?</label>
+              <input id="how"></input>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id="answers">
+            <ul id="destinations">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
